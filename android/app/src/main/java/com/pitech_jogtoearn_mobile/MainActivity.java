@@ -1,5 +1,6 @@
 package com.pitech_jogtoearn_mobile;
 
+import com.facebook.react.ReactActivity;
 import com.reactnativenavigation.NavigationActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
