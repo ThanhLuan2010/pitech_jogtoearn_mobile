@@ -37,14 +37,6 @@ const authReducer = (state = INITIAL, action) => {
         ...state,
         loggedIn: false,
       };
-    case types.USER_PROFILE[types.SUCCESS]:
-      return {
-        ...state,
-        user: {
-          ...state.user,
-          ...action.data.data,
-        },
-      };
     case types.USER_LOGOUT:
       // setRoot('LoginView');
       return INITIAL;

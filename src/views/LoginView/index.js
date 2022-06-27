@@ -4,7 +4,7 @@ import {Keyboard, TouchableWithoutFeedback, View} from 'react-native';
 import {connect} from 'react-redux';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 
-// import loading from '../../nativeModules/loading';
+import loading from '../../nativeModules/loading';
 import {
   DEFAULT_HEADER_SMALL,
   HIDDEN_BOTTOM_TABS,
@@ -40,6 +40,13 @@ class LoginView extends React.Component {
     };
     this.actionSignIn = this.actionSignIn.bind(this);
     this.navigateToRegister = this.navigateToRegister.bind(this);
+  }
+
+  componentDidMount() {
+    loading.showLoading();
+    setTimeout(() => {
+      loading.hideLoading();
+    }, 5000);
   }
 
   navigateToRegister = () => {
