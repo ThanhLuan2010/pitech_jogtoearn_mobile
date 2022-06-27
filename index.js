@@ -1,9 +1,21 @@
-/**
- * @format
- */
+import {Navigation} from 'react-native-navigation';
+import 'react-native-gesture-handler';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+import {setRoot, currentScreen} from './src/utils/navigator';
+import {registeredScreens} from './src/views/registeredScreens';
 
-AppRegistry.registerComponent(appName, () => App);
+registeredScreens();
+Navigation.events().registerAppLaunchedListener(() => {
+  setRoot('LoadingView');
+});
+Navigation.events().registerComponentDidAppearListener(
+  ({componentId, componentName, passProps}) => {
+    if (componentName && componentId) {
+      currentScreen.set('component', {
+        componentId,
+        componentName,
+        passProps,
+      });
+    }
+  },
+);

@@ -19,6 +19,11 @@ target 'pitech_jogtoearn_mobile' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  #other libs
+  pod 'SVProgressHUD'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'pitech_jogtoearn_mobileTests' do
     inherit! :complete
     # Pods for testing
@@ -31,6 +36,10 @@ target 'pitech_jogtoearn_mobile' do
   use_flipper!()
 
   post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.1'
+    end
     react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
