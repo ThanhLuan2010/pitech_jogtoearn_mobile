@@ -2,12 +2,12 @@
 import {Platform} from 'react-native';
 import {Navigation} from 'react-native-navigation';
 // import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-// import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 // import AntDesign from 'react-native-vector-icons/AntDesign';
 
 import * as colors from '../themes/colors';
 // import Images from '../themes/Images';
-import CustomIcon from '../themes/CustomIcon';
+// import CustomIcon from '../themes/CustomIcon';
 const currentScreen = new Map();
 
 // pifIcon
@@ -37,8 +37,8 @@ async function getListOfTabItems(activityIcon, homeIcon) {
 async function getListOfTab(passProps = {}) {
   let listOfTabs = [];
   await Promise.all([
-    CustomIcon.getImageSource('overviewIcon', 25),
-    CustomIcon.getImageSource('projectIcon', 25),
+    MaterialIcons.getImageSource('verified', 25),
+    MaterialIcons.getImageSource('fingerprint', 25),
   ]).then(async ([activityIcon, homeIcon, sendIcon, profileIcon, chatIcon]) => {
     let items = await getListOfTabItems(activityIcon, homeIcon);
     items.forEach(item => {
