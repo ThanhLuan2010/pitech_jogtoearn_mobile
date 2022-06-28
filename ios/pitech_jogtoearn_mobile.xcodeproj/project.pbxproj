@@ -14,8 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DFD6695A2869ACA80097B5C0 /* LoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD669592869ACA80097B5C0 /* LoadingManager.m */; };
-		DFD669712869BB260097B5C0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD669702869BB260097B5C0 /* File.swift */; };
+		DF3DFB82286AC3CD00F8688C /* LoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3DFB81286AC3CD00F8688C /* LoadingManager.m */; };
+		DF3DFB85286AC3F000F8688C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DFB84286AC3F000F8688C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,10 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-pitech_jogtoearn_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pitech_jogtoearn_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = pitech_jogtoearn_mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests/Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
-		DFD669582869AC830097B5C0 /* LoadingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingManager.h; sourceTree = "<group>"; };
-		DFD669592869ACA80097B5C0 /* LoadingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingManager.m; sourceTree = "<group>"; };
-		DFD6696F2869BB260097B5C0 /* pitech_jogtoearn_mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pitech_jogtoearn_mobile-Bridging-Header.h"; sourceTree = "<group>"; };
-		DFD669702869BB260097B5C0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DF3DFB80286AC3BE00F8688C /* LoadingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingManager.h; sourceTree = "<group>"; };
+		DF3DFB81286AC3CD00F8688C /* LoadingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingManager.m; sourceTree = "<group>"; };
+		DF3DFB83286AC3F000F8688C /* pitech_jogtoearn_mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pitech_jogtoearn_mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF3DFB84286AC3F000F8688C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -92,15 +92,15 @@
 		13B07FAE1A68108700A75B9A /* pitech_jogtoearn_mobile */ = {
 			isa = PBXGroup;
 			children = (
-				DFD669572869AC4B0097B5C0 /* Loading */,
+				DF3DFB7F286AC39600F8688C /* Loading */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				DFD669702869BB260097B5C0 /* File.swift */,
-				DFD6696F2869BB260097B5C0 /* pitech_jogtoearn_mobile-Bridging-Header.h */,
+				DF3DFB84286AC3F000F8688C /* File.swift */,
+				DF3DFB83286AC3F000F8688C /* pitech_jogtoearn_mobile-Bridging-Header.h */,
 			);
 			name = pitech_jogtoearn_mobile;
 			sourceTree = "<group>";
@@ -157,11 +157,11 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DFD669572869AC4B0097B5C0 /* Loading */ = {
+		DF3DFB7F286AC39600F8688C /* Loading */ = {
 			isa = PBXGroup;
 			children = (
-				DFD669582869AC830097B5C0 /* LoadingManager.h */,
-				DFD669592869ACA80097B5C0 /* LoadingManager.m */,
+				DF3DFB80286AC3BE00F8688C /* LoadingManager.h */,
+				DF3DFB81286AC3CD00F8688C /* LoadingManager.m */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -274,15 +274,13 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/.xcode.env.local",
-				"$(SRCROOT)/.xcode.env",
 			);
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -431,9 +429,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				DFD669712869BB260097B5C0 /* File.swift in Sources */,
+				DF3DFB85286AC3F000F8688C /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				DFD6695A2869ACA80097B5C0 /* LoadingManager.m in Sources */,
+				DF3DFB82286AC3CD00F8688C /* LoadingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,62 +452,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3A6B6P2H5;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
-					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
-					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
-					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
-					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
-					"\"${PODS_ROOT}/Headers/Public/React-bridging\"",
-					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
-					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
-					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
-					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
-					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
-					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
-					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
-					"\"${PODS_ROOT}/Headers/Public/fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/glog\"",
-					"\"${PODS_ROOT}/Headers/Public/libevent\"",
-					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
-					"\"$(PODS_ROOT)/DoubleConversion\"",
-					"\"$(PODS_ROOT)/boost\"",
-					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"$(PODS_TARGET_SRCROOT)/include/\"",
-					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
-				);
 				INFOPLIST_FILE = pitech_jogtoearn_mobileTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,58 +482,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
-					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
-					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
-					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
-					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
-					"\"${PODS_ROOT}/Headers/Public/React-bridging\"",
-					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
-					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
-					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
-					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
-					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
-					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
-					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
-					"\"${PODS_ROOT}/Headers/Public/fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/glog\"",
-					"\"${PODS_ROOT}/Headers/Public/libevent\"",
-					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
-					"\"$(PODS_ROOT)/DoubleConversion\"",
-					"\"$(PODS_ROOT)/boost\"",
-					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"$(PODS_TARGET_SRCROOT)/include/\"",
-					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
-				);
+				DEVELOPMENT_TEAM = U3A6B6P2H5;
 				INFOPLIST_FILE = pitech_jogtoearn_mobileTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -608,58 +508,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3A6B6P2H5;
 				ENABLE_BITCODE = NO;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
-					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
-					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
-					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
-					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
-					"\"${PODS_ROOT}/Headers/Public/React-bridging\"",
-					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
-					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
-					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
-					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
-					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
-					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
-					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
-					"\"${PODS_ROOT}/Headers/Public/fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/glog\"",
-					"\"${PODS_ROOT}/Headers/Public/libevent\"",
-					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
-					"\"$(PODS_ROOT)/DoubleConversion\"",
-					"\"$(PODS_ROOT)/boost\"",
-					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"$(PODS_TARGET_SRCROOT)/include/\"",
-					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
-				);
 				INFOPLIST_FILE = pitech_jogtoearn_mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -686,57 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
-					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
-					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
-					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
-					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
-					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
-					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
-					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
-					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
-					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
-					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
-					"\"${PODS_ROOT}/Headers/Public/React-bridging\"",
-					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
-					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
-					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
-					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
-					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
-					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
-					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
-					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
-					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
-					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
-					"\"${PODS_ROOT}/Headers/Public/fmt\"",
-					"\"${PODS_ROOT}/Headers/Public/glog\"",
-					"\"${PODS_ROOT}/Headers/Public/libevent\"",
-					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
-					"\"$(PODS_ROOT)/DoubleConversion\"",
-					"\"$(PODS_ROOT)/boost\"",
-					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
-					"\"$(PODS_TARGET_SRCROOT)/include/\"",
-					"$(SRCROOT)/../node_modules/react-native-navigation/lib/ios/**",
-				);
+				DEVELOPMENT_TEAM = U3A6B6P2H5;
 				INFOPLIST_FILE = pitech_jogtoearn_mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -804,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -822,7 +622,6 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -869,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -886,7 +685,6 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

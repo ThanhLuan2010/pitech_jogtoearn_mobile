@@ -6,7 +6,7 @@ import android.graphics.drawable.ColorDrawable;
 
 import com.pitech_jogtoearn_mobile.R;
 
-public class Loading {
+public final class Loading {
     private static ProgressDialog progressDialog;
 
     private Loading() {

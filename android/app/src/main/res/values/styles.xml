@@ -22,5 +22,4 @@
         <item name="android:topBright">@android:color/transparent</item>
         <item name="android:topDark">@android:color/transparent</item>
     </style>
-
 </resources>

@@ -9,7 +9,6 @@ import com.facebook.react.bridge.ReactMethod;
 import javax.annotation.Nonnull;
 
 public class LoadingModule extends ReactContextBaseJavaModule {
-
     public LoadingModule(@Nonnull ReactApplicationContext reactContext) {
         super(reactContext);
     }
