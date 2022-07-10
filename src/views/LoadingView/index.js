@@ -25,7 +25,7 @@ class LoadingView extends React.Component {
         user,
         this.props.auth,
       );
-      if (loggedIn !== true) {
+      if (loggedIn) {
         const listOfTabs = await getListOfTab();
         setRootUser(listOfTabs);
       } else {

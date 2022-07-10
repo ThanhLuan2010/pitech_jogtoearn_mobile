@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {SafeAreaView, View, Platform} from 'react-native';
+import {SafeAreaView, View, Platform, Text} from 'react-native';
 import {connect} from 'react-redux';
 
 import styles from './styles';
@@ -13,32 +13,11 @@ import {mergeOptions} from '../../utils/navigator';
 import {COLOR_PRIMARY} from '../../themes/colors';
 
 const HomeView = ({user, componentId}) => {
-  React.useEffect(() => {
-    mergeOptions(componentId, {
-      topBar: {
-        title: {
-          text: 'HomeView',
-        },
-        ...Platform.select({
-          ios: {
-            background: {
-              color: COLOR_PRIMARY,
-            },
-          },
-        }),
-      },
-    });
-
-    return () => {
-      // cleanup
-    };
-  }, [componentId, user]);
 
   return (
     <SafeAreaView style={styles.container}>
-      <View />
+    <Text>hihi</Text>
 
-      {/* <BottomTabs /> */}
     </SafeAreaView>
   );
 };
