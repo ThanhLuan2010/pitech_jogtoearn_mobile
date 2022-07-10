@@ -1,7 +1,7 @@
 import * as types from '../actions/types';
 
 const INITIAL = {
-  language: 'vi',
+  language: 'en',
   isPlaySound: true,
 };
 

@@ -20,7 +20,7 @@ class LoadingView extends React.Component {
   async componentDidMount() {
     setTimeout(async () => {
       const {loggedIn, user, languageStore} = this.props;
-      I18n.locale = 'vi';
+      I18n.locale = languageStore || 'en';
       console.log(
         'loggedIn: componentDidMount',
         loggedIn,
