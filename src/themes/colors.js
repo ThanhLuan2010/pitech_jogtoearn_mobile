@@ -19,3 +19,4 @@ export const MAIN_BLUE = '#00387C';
 export const LIGHT_BLUE = '#0163BF';
 export const LIGHT_BLUE_TEXT = '#5BAAFF';
 export const BLACK_TEXT = '#2C333A';
+export const VIOLET = '#CF6BFE';

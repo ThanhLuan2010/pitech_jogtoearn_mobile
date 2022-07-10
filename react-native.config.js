@@ -9,5 +9,6 @@ module.exports = {
   project: {
     ios: {},
   },
-  assets: ['./assets/fonts/'],
+  assets: ['./src/assets/fonts'],
+  // assets: ['./assets/fonts/'],
 };

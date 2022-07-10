@@ -1,11 +1,13 @@
 // import React from 'react';
-import {Platform} from 'react-native';
+import { Platform} from 'react-native';
 import {Navigation} from 'react-native-navigation';
 // import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import style from '../components/GradientButton/style';
 // import AntDesign from 'react-native-vector-icons/AntDesign';
 
 import * as colors from '../themes/colors';
+import images from '../themes/Images';
 // import Images from '../themes/Images';
 // import CustomIcon from '../themes/CustomIcon';
 const currentScreen = new Map();
