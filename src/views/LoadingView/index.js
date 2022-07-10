@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 
 import FastImage from 'react-native-fast-image';
 
+import I18n from '../../i18n';
 import {HIDDEN_TOP_BAR} from '../../themes/headerOptions';
 import {setRoot, getListOfTab, setRootUser} from '../../utils/navigator';
 import styles from './styles';
@@ -18,7 +19,8 @@ class LoadingView extends React.Component {
   }
   async componentDidMount() {
     setTimeout(async () => {
-      const {loggedIn, user} = this.props;
+      const {loggedIn, user, languageStore} = this.props;
+      I18n.locale = 'vi';
       console.log(
         'loggedIn: componentDidMount',
         loggedIn,
@@ -77,6 +79,7 @@ const mapStateToProps = state => ({
   token: state.auth.token,
   loggedIn: state.auth.loggedIn,
   auth: state.auth,
+  languageStore: state.common.language,
 });
 
 const mapDispatchToProps = dispatch => {

@@ -24,5 +24,9 @@ export const APP = createRequestTypes('APP', [
 export const USER_REGISTER = createRequestTypes('USER_REGISTER');
 
 export const USER_LOGIN_LOCAL = createRequestTypes('USER_LOGIN_LOCAL');
+//Common
+export const USER_CHANGE_LANGUAGE = 'USER_CHANGE_LANGUAGE';
+
+export const USER_CHANGE_SOUND = 'USER_CHANGE_SOUND';
 
 export const USER_LOGOUT = 'USER_LOGOUT';
