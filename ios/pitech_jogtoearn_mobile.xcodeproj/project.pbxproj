@@ -9,41 +9,40 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* pitech_jogtoearn_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pitech_jogtoearn_mobileTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-pitech_jogtoearn_mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-pitech_jogtoearn_mobile.a */; };
+		0F06E03C49C94D0BA07D586E /* SourceCodePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BDFA9A7CEDA44C79EE62AA2 /* SourceCodePro-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13D12EC38F4943A2827E0160 /* playBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C0E9546F83544CFB8BE6BE3 /* playBold.ttf */; };
+		140067E5C3534A1498F2F89B /* SourceCodePro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC74624DE0C448C78EFB067A /* SourceCodePro-SemiBoldItalic.ttf */; };
+		21C1A3FEA94B42FAA00E9AB8 /* SourceCodePro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7618CA6B04C04029931ED22A /* SourceCodePro-ExtraLight.ttf */; };
+		2C9840BF2DCA49CE9F8EA319 /* SourceCodePro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A93598A9094788B3092EFB /* SourceCodePro-MediumItalic.ttf */; };
+		314D77F88AF94BA995636AA8 /* SourceCodePro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4256186CD7BB463C858B9495 /* SourceCodePro-ExtraLightItalic.ttf */; };
+		3861CF5948994F8EBFC5D5F0 /* SourceCodePro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08F634E43F204EA2A0430FFA /* SourceCodePro-ExtraBold.ttf */; };
+		3B6681B52E18488287E27ED3 /* caption.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F38368711E04FD0ABF16764 /* caption.ttf */; };
+		43865DB57DE0439FA8CC88C9 /* play.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6DB69FD66F74860B95DFED3 /* play.ttf */; };
+		68E60418F8084C23941C0809 /* SourceCodePro-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA99815FAAEC40FEB1D30A2D /* SourceCodePro-ExtraBoldItalic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.a */; };
+		7A32F8F79098481DBE501B69 /* callingCodeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B535183F2A4D43259D925332 /* callingCodeBold.ttf */; };
+		7E663BC136B14551A7311E16 /* SourceCodePro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C9AF0A25344D139359B06E /* SourceCodePro-Light.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		90DAAA026E21477DBA2DAB33 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0147C33A349946AA992515E1 /* SourceCodePro-Regular.ttf */; };
+		9318F49E28474558A8B460B0 /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B5F1015DEC4151A706C614 /* Poppins.ttf */; };
+		948BB39C28F74DA086BEBD47 /* SourceCodePro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9258B39CD1462FB672E189 /* SourceCodePro-BlackItalic.ttf */; };
+		9620A081544D4908B62AC838 /* SourceCodePro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A9208961E05495FA6AD25F2 /* SourceCodePro-SemiBold.ttf */; };
+		9A702DB5407048D485ECDA09 /* SourceCodePro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2030005021CE4D87AA19E0BD /* SourceCodePro-Italic.ttf */; };
+		A270CE68FFB244BA8072898F /* callingcode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABE9D1EC317D4370BE97607E /* callingcode.ttf */; };
+		A89055D453644C8280D003E7 /* captionBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C0B606C0C44708949F067D /* captionBold.ttf */; };
+		AB77116A771E48FD972E0C30 /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64A22CA6BD594D11B4EEBB81 /* PoppinsBold.ttf */; };
+		C1122E85442446628E04E8CF /* PoppinsThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05008DD6904546FA8D2A236F /* PoppinsThin.ttf */; };
+		C19B4D2B37D442D1AEC433E4 /* Aldrich.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD960F2B774E63AB71A205 /* Aldrich.ttf */; };
+		CD392A6B690047818F3CCF82 /* SourceCodePro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBFBFF2503D3440093E3B315 /* SourceCodePro-Black.ttf */; };
+		DE441B4661A8462E856EB89B /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B116B915724CA3A60F5DA6 /* SourceCodePro-Medium.ttf */; };
 		DF3DFB82286AC3CD00F8688C /* LoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3DFB81286AC3CD00F8688C /* LoadingManager.m */; };
 		DF3DFB85286AC3F000F8688C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DFB84286AC3F000F8688C /* File.swift */; };
 		DF3DFBB2286AE02200F8688C /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF3DFBB1286AE02200F8688C /* icomoon.ttf */; };
-		B54CCEDA328047E7A8E894C8 /* Play-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5D1F05683A0472993BACE25 /* Play-Bold.ttf */; };
-		43865DB57DE0439FA8CC88C9 /* play.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6DB69FD66F74860B95DFED3 /* play.ttf */; };
-		13D12EC38F4943A2827E0160 /* playBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C0E9546F83544CFB8BE6BE3 /* playBold.ttf */; };
-		C19B4D2B37D442D1AEC433E4 /* Aldrich.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD960F2B774E63AB71A205 /* Aldrich.ttf */; };
-		A270CE68FFB244BA8072898F /* callingcode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABE9D1EC317D4370BE97607E /* callingcode.ttf */; };
-		7A32F8F79098481DBE501B69 /* callingCodeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B535183F2A4D43259D925332 /* callingCodeBold.ttf */; };
-		CD392A6B690047818F3CCF82 /* SourceCodePro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBFBFF2503D3440093E3B315 /* SourceCodePro-Black.ttf */; };
-		948BB39C28F74DA086BEBD47 /* SourceCodePro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E9258B39CD1462FB672E189 /* SourceCodePro-BlackItalic.ttf */; };
-		0F06E03C49C94D0BA07D586E /* SourceCodePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BDFA9A7CEDA44C79EE62AA2 /* SourceCodePro-Bold.ttf */; };
-		F5C4487A57F04C7081C82DE1 /* SourceCodePro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD945565EF2491E9D65BA3B /* SourceCodePro-BoldItalic.ttf */; };
-		3861CF5948994F8EBFC5D5F0 /* SourceCodePro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08F634E43F204EA2A0430FFA /* SourceCodePro-ExtraBold.ttf */; };
-		68E60418F8084C23941C0809 /* SourceCodePro-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA99815FAAEC40FEB1D30A2D /* SourceCodePro-ExtraBoldItalic.ttf */; };
-		21C1A3FEA94B42FAA00E9AB8 /* SourceCodePro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7618CA6B04C04029931ED22A /* SourceCodePro-ExtraLight.ttf */; };
-		314D77F88AF94BA995636AA8 /* SourceCodePro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4256186CD7BB463C858B9495 /* SourceCodePro-ExtraLightItalic.ttf */; };
-		9A702DB5407048D485ECDA09 /* SourceCodePro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2030005021CE4D87AA19E0BD /* SourceCodePro-Italic.ttf */; };
-		7E663BC136B14551A7311E16 /* SourceCodePro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C9AF0A25344D139359B06E /* SourceCodePro-Light.ttf */; };
 		E5C8FB10BAD548B39B513790 /* SourceCodePro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC143E4C346E43E8B87E71B0 /* SourceCodePro-LightItalic.ttf */; };
-		DE441B4661A8462E856EB89B /* SourceCodePro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B116B915724CA3A60F5DA6 /* SourceCodePro-Medium.ttf */; };
-		2C9840BF2DCA49CE9F8EA319 /* SourceCodePro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A93598A9094788B3092EFB /* SourceCodePro-MediumItalic.ttf */; };
-		90DAAA026E21477DBA2DAB33 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0147C33A349946AA992515E1 /* SourceCodePro-Regular.ttf */; };
-		9620A081544D4908B62AC838 /* SourceCodePro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A9208961E05495FA6AD25F2 /* SourceCodePro-SemiBold.ttf */; };
-		140067E5C3534A1498F2F89B /* SourceCodePro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC74624DE0C448C78EFB067A /* SourceCodePro-SemiBoldItalic.ttf */; };
-		3B6681B52E18488287E27ED3 /* caption.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F38368711E04FD0ABF16764 /* caption.ttf */; };
-		A89055D453644C8280D003E7 /* captionBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C0B606C0C44708949F067D /* captionBold.ttf */; };
-		9318F49E28474558A8B460B0 /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57B5F1015DEC4151A706C614 /* Poppins.ttf */; };
-		AB77116A771E48FD972E0C30 /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64A22CA6BD594D11B4EEBB81 /* PoppinsBold.ttf */; };
-		C1122E85442446628E04E8CF /* PoppinsThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05008DD6904546FA8D2A236F /* PoppinsThin.ttf */; };
+		F5C4487A57F04C7081C82DE1 /* SourceCodePro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD945565EF2491E9D65BA3B /* SourceCodePro-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C0B606C0C44708949F067D /* captionBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = captionBold.ttf; path = ../src/assets/fonts/captionBold.ttf; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* pitech_jogtoearn_mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pitech_jogtoearn_mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* pitech_jogtoearn_mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pitech_jogtoearn_mobileTests.m; sourceTree = "<group>"; };
+		0147C33A349946AA992515E1 /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Regular.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
+		05008DD6904546FA8D2A236F /* PoppinsThin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsThin.ttf; path = ../src/assets/fonts/PoppinsThin.ttf; sourceTree = "<group>"; };
+		08A93598A9094788B3092EFB /* SourceCodePro-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-MediumItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-MediumItalic.ttf"; sourceTree = "<group>"; };
+		08F634E43F204EA2A0430FFA /* SourceCodePro-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-ExtraBold.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* pitech_jogtoearn_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pitech_jogtoearn_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = pitech_jogtoearn_mobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = pitech_jogtoearn_mobile/AppDelegate.mm; sourceTree = "<group>"; };
@@ -67,12 +71,31 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pitech_jogtoearn_mobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = pitech_jogtoearn_mobile/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9258B39CD1462FB672E189 /* SourceCodePro-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-BlackItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2030005021CE4D87AA19E0BD /* SourceCodePro-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Italic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Italic.ttf"; sourceTree = "<group>"; };
+		2A9208961E05495FA6AD25F2 /* SourceCodePro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-SemiBold.ttf"; path = "../src/assets/fonts/static/SourceCodePro-SemiBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-pitech_jogtoearn_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pitech_jogtoearn_mobile.debug.xcconfig"; path = "Target Support Files/Pods-pitech_jogtoearn_mobile/Pods-pitech_jogtoearn_mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0E9546F83544CFB8BE6BE3 /* playBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = playBold.ttf; path = ../src/assets/fonts/playBold.ttf; sourceTree = "<group>"; };
+		4256186CD7BB463C858B9495 /* SourceCodePro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-ExtraLightItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-pitech_jogtoearn_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pitech_jogtoearn_mobile.release.xcconfig"; path = "Target Support Files/Pods-pitech_jogtoearn_mobile/Pods-pitech_jogtoearn_mobile.release.xcconfig"; sourceTree = "<group>"; };
+		57B5F1015DEC4151A706C614 /* Poppins.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Poppins.ttf; path = ../src/assets/fonts/Poppins.ttf; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests/Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-pitech_jogtoearn_mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pitech_jogtoearn_mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCD960F2B774E63AB71A205 /* Aldrich.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Aldrich.ttf; path = ../src/assets/fonts/Aldrich.ttf; sourceTree = "<group>"; };
+		64A22CA6BD594D11B4EEBB81 /* PoppinsBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsBold.ttf; path = ../src/assets/fonts/PoppinsBold.ttf; sourceTree = "<group>"; };
+		73B116B915724CA3A60F5DA6 /* SourceCodePro-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Medium.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Medium.ttf"; sourceTree = "<group>"; };
+		7618CA6B04C04029931ED22A /* SourceCodePro-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-ExtraLight.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7DD945565EF2491E9D65BA3B /* SourceCodePro-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-BoldItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = pitech_jogtoearn_mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.release.xcconfig"; path = "Target Support Files/Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests/Pods-pitech_jogtoearn_mobile-pitech_jogtoearn_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BDFA9A7CEDA44C79EE62AA2 /* SourceCodePro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Bold.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Bold.ttf"; sourceTree = "<group>"; };
+		8F38368711E04FD0ABF16764 /* caption.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = caption.ttf; path = ../src/assets/fonts/caption.ttf; sourceTree = "<group>"; };
+		A6DB69FD66F74860B95DFED3 /* play.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = play.ttf; path = ../src/assets/fonts/play.ttf; sourceTree = "<group>"; };
+		ABE9D1EC317D4370BE97607E /* callingcode.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = callingcode.ttf; path = ../src/assets/fonts/callingcode.ttf; sourceTree = "<group>"; };
+		B535183F2A4D43259D925332 /* callingCodeBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = callingCodeBold.ttf; path = ../src/assets/fonts/callingCodeBold.ttf; sourceTree = "<group>"; };
+		CBFBFF2503D3440093E3B315 /* SourceCodePro-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Black.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Black.ttf"; sourceTree = "<group>"; };
+		CC74624DE0C448C78EFB067A /* SourceCodePro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-SemiBoldItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DC143E4C346E43E8B87E71B0 /* SourceCodePro-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-LightItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-LightItalic.ttf"; sourceTree = "<group>"; };
 		DF3DFB80286AC3BE00F8688C /* LoadingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingManager.h; sourceTree = "<group>"; };
 		DF3DFB81286AC3CD00F8688C /* LoadingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingManager.m; sourceTree = "<group>"; };
 		DF3DFB83286AC3F000F8688C /* pitech_jogtoearn_mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pitech_jogtoearn_mobile-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -95,33 +118,9 @@
 		DF3DFBC2286AE16100F8688C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		DF3DFBC3286AE16100F8688C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F5D1F05683A0472993BACE25 /* Play-Bold.ttf */ = {isa = PBXFileReference; name = "Play-Bold.ttf"; path = "../src/assets/fonts/Play-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A6DB69FD66F74860B95DFED3 /* play.ttf */ = {isa = PBXFileReference; name = "play.ttf"; path = "../src/assets/fonts/play.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3C0E9546F83544CFB8BE6BE3 /* playBold.ttf */ = {isa = PBXFileReference; name = "playBold.ttf"; path = "../src/assets/fonts/playBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5FCD960F2B774E63AB71A205 /* Aldrich.ttf */ = {isa = PBXFileReference; name = "Aldrich.ttf"; path = "../src/assets/fonts/Aldrich.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ABE9D1EC317D4370BE97607E /* callingcode.ttf */ = {isa = PBXFileReference; name = "callingcode.ttf"; path = "../src/assets/fonts/callingcode.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B535183F2A4D43259D925332 /* callingCodeBold.ttf */ = {isa = PBXFileReference; name = "callingCodeBold.ttf"; path = "../src/assets/fonts/callingCodeBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBFBFF2503D3440093E3B315 /* SourceCodePro-Black.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-Black.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1E9258B39CD1462FB672E189 /* SourceCodePro-BlackItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-BlackItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8BDFA9A7CEDA44C79EE62AA2 /* SourceCodePro-Bold.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-Bold.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7DD945565EF2491E9D65BA3B /* SourceCodePro-BoldItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-BoldItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		08F634E43F204EA2A0430FFA /* SourceCodePro-ExtraBold.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-ExtraBold.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FA99815FAAEC40FEB1D30A2D /* SourceCodePro-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7618CA6B04C04029931ED22A /* SourceCodePro-ExtraLight.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-ExtraLight.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4256186CD7BB463C858B9495 /* SourceCodePro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-ExtraLightItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2030005021CE4D87AA19E0BD /* SourceCodePro-Italic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-Italic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F6C9AF0A25344D139359B06E /* SourceCodePro-Light.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-Light.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DC143E4C346E43E8B87E71B0 /* SourceCodePro-LightItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-LightItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		73B116B915724CA3A60F5DA6 /* SourceCodePro-Medium.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-Medium.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		08A93598A9094788B3092EFB /* SourceCodePro-MediumItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-MediumItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0147C33A349946AA992515E1 /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-Regular.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2A9208961E05495FA6AD25F2 /* SourceCodePro-SemiBold.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-SemiBold.ttf"; path = "../src/assets/fonts/static/SourceCodePro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CC74624DE0C448C78EFB067A /* SourceCodePro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "SourceCodePro-SemiBoldItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8F38368711E04FD0ABF16764 /* caption.ttf */ = {isa = PBXFileReference; name = "caption.ttf"; path = "../src/assets/fonts/caption.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		00C0B606C0C44708949F067D /* captionBold.ttf */ = {isa = PBXFileReference; name = "captionBold.ttf"; path = "../src/assets/fonts/captionBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		57B5F1015DEC4151A706C614 /* Poppins.ttf */ = {isa = PBXFileReference; name = "Poppins.ttf"; path = "../src/assets/fonts/Poppins.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		64A22CA6BD594D11B4EEBB81 /* PoppinsBold.ttf */ = {isa = PBXFileReference; name = "PoppinsBold.ttf"; path = "../src/assets/fonts/PoppinsBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		05008DD6904546FA8D2A236F /* PoppinsThin.ttf */ = {isa = PBXFileReference; name = "PoppinsThin.ttf"; path = "../src/assets/fonts/PoppinsThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5D1F05683A0472993BACE25 /* Play-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Play-Bold.ttf"; path = "../src/assets/fonts/Play-Bold.ttf"; sourceTree = "<group>"; };
+		F6C9AF0A25344D139359B06E /* SourceCodePro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-Light.ttf"; path = "../src/assets/fonts/static/SourceCodePro-Light.ttf"; sourceTree = "<group>"; };
+		FA99815FAAEC40FEB1D30A2D /* SourceCodePro-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceCodePro-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/static/SourceCodePro-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,7 +264,7 @@
 			sourceTree = "<group>";
 		};
 		E57C69E15C054CCBB2EC9D8C /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				F5D1F05683A0472993BACE25 /* Play-Bold.ttf */,
 				A6DB69FD66F74860B95DFED3 /* play.ttf */,
@@ -297,7 +296,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -396,7 +394,6 @@
 				DF3DFBB2286AE02200F8688C /* icomoon.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				B54CCEDA328047E7A8E894C8 /* Play-Bold.ttf in Resources */,
 				43865DB57DE0439FA8CC88C9 /* play.ttf in Resources */,
 				13D12EC38F4943A2827E0160 /* playBold.ttf in Resources */,
 				C19B4D2B37D442D1AEC433E4 /* Aldrich.ttf in Resources */,
