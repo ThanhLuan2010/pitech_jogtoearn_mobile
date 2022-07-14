@@ -14,6 +14,7 @@ export default StyleSheet.create({
   },
   background: {
     height: sizes.height,
+
   },
   logo: {
     height: 92,
@@ -53,6 +54,7 @@ export default StyleSheet.create({
     width: 116,
     height: 36,
     marginTop:20
+
   },
   getPass: {
     bottom: 40,
