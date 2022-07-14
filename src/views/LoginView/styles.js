@@ -52,7 +52,9 @@ export default StyleSheet.create({
     alignSelf: 'center',
     width: 116,
     height: 36,
-    marginTop:20
+    marginTop:20,
+    paddingHorizontal: 24,
+    paddingVertical: 5,
   },
   getPass: {
     bottom: 40,
