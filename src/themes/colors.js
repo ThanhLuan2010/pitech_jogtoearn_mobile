@@ -20,3 +20,23 @@ export const LIGHT_BLUE = '#0163BF';
 export const LIGHT_BLUE_TEXT = '#5BAAFF';
 export const BLACK_TEXT = '#2C333A';
 export const VIOLET = '#CF6BFE';
+export const BLUE_BLACK = '#212246';
+export const VIOLET_BOLD = '#7A2A8D';
+export const INCOME_BACKGROUND = '#8C0ACC';
+export const VIOLET_TEXT = '#49246A';
+export const NEW_BACKGROUND = '#1B0639';
+export const BORDER = '#E6BDFF';
+export const DARK = '#241235';
+export const NORMAL = '#41205E';
+export const PINK = '#C75CEC';
+export const POWER_BACKGROUND = '#3D1E59';
+export const POWER_PINK_BORDER = '#EDA7FF';
+export const POWER_GREEN_BORDER = '#98FFAE';
+export const POWER_YELLOW_BORDER = '#FDFF87';
+export const SEEN_NOTIFY_BACKGROUND = '#311847';
+
+
+
+
+
+

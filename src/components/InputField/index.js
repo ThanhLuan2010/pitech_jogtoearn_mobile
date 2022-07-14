@@ -10,14 +10,16 @@ class InputField extends React.Component {
         };
     }
     render() {
-        const {placeholder,style} = this.props
+        const {placeholder,style,rightComponent}  = this.props
         return (
-            <View>
+            <View style={[style,styles.container]}>
                 <TextInput
                     {...this.props}
                     placeholder={placeholder}
-                    style={[style,styles.input]}
+                    placeholderTextColor={'white'}
+                    style={[styles.input]}
                 />
+                {rightComponent&&rightComponent}
             </View>
         );
     }

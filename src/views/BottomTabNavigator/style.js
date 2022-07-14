@@ -8,7 +8,10 @@ export default StyleSheet.create({
         alignItems: 'center',
         marginHorizontal: 16,
         justifyContent: 'center',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        position:'absolute',
+        bottom:20,
+        width:width - 32
     },
     iconTab: {
         width: 18,

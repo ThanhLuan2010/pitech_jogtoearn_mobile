@@ -19,8 +19,8 @@ export default StyleSheet.create({
   button:{
     alignSelf:'center',
     marginBottom:40,
-    paddingHorizontal:40,
-    paddingVertical:20,
-    borderRadius:10
+    borderRadius:10,
+    width: 253,
+    height: 44,
   }
 });

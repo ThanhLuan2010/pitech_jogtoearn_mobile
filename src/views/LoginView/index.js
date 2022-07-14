@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Keyboard, TouchableWithoutFeedback, View, ImageBackground, Text } from 'react-native';
+import { Keyboard, TouchableWithoutFeedback, View, ImageBackground, Text, SafeAreaView } from 'react-native';
 import { connect } from 'react-redux';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import images from '../../themes/Images'
@@ -12,10 +12,11 @@ import {
 import { loginLocal } from '../../redux/actions';
 import { navigateToScreen } from '../../utils/navigator';
 import scrollPersistTaps from '../../utils/scrollPersistTaps';
-import { InputField,GradientButton } from '../../components'
+import { InputField, GradientButton } from '../../components'
 import styles from './styles';
 import FastImage from 'react-native-fast-image';
 import { WHITE, VIOLET } from '../../themes/colors'
+import { height } from '../../constants/sizes';
 class LoginView extends React.Component {
   static options() {
     return {
@@ -47,7 +48,7 @@ class LoginView extends React.Component {
     loading.showLoading();
     setTimeout(() => {
       loading.hideLoading();
-    }, 5000);
+    }, 500);
   }
 
   navigateToRegister = () => {
@@ -64,55 +65,58 @@ class LoginView extends React.Component {
 
   render() {
     return (
-      <KeyboardAwareScrollView
-        alwaysBounceVertical={true}
-        {...scrollPersistTaps}
-        behavior="position"
-        style={styles.container}
-        showsVerticalScrollIndicator={false}>
-        <TouchableWithoutFeedback
+      <SafeAreaView style={{flex:1,justifyContent:'center',backgroundColor:'red',height:height}}>
+        <KeyboardAwareScrollView
+          alwaysBounceVertical={true}
+          {...scrollPersistTaps}
+          behavior="position"
           style={styles.container}
-          onPress={() => {
-            Keyboard.dismiss();
-          }}>
-          <ImageBackground
-            source={images.splash}
-            style={styles.background}
-          >
-            <View style={styles.centerView}>
-              <FastImage
-                source={images.logo}
-                style={styles.logo}
-              />
-              <Text style={styles.contentTxt}>Keep jogging - Keep earning</Text>
-              <Text style={styles.loginTxt}>LOGIN</Text>
+          showsVerticalScrollIndicator={false}>
+          <TouchableWithoutFeedback
+            style={styles.container}
+            onPress={() => {
+              Keyboard.dismiss();
+            }}>
+            <ImageBackground
+              source={images.splash}
+              style={styles.background}
+            >
+              <View style={styles.centerView}>
+                <FastImage
+                  source={images.logo}
+                  style={styles.logo}
+                />
+                <Text style={styles.contentTxt}>Keep jogging - Keep earning</Text>
+                <Text style={styles.loginTxt}>LOGIN</Text>
 
-              <InputField
-                placeholder='Email@gmail.com'
-                placeholderTextColor={WHITE}
-                style={{ marginTop:40}}
-              />
+                <InputField
+                  placeholder='Email@gmail.com'
+                  placeholderTextColor={WHITE}
+                  style={{ marginTop: 40, borderColor:WHITE }}
+                />
 
-              <InputField
-                placeholder='Password'
-                placeholderTextColor={WHITE}
-                style={{ marginTop:28 }}
-              />
+                <InputField
+                  placeholder='Password'
+                  placeholderTextColor={WHITE}
+                  style={{ marginTop: 28, borderColor:WHITE  }}
+                />
 
-              <Text style={styles.agree}>By coutinuting, you agree to our <Text style={{color:VIOLET}}>Terms of Use</Text></Text>
-              <GradientButton
-                title={'Login'}
-                style={styles.loginButton}
-                onPress={()=>{
-                  const { componentId } = this.props;
-                  navigateToScreen(componentId,'LoginNext1')
-                }}
-              />
-            </View>
-            <Text style={styles.getPass}>Forgot your password, get it back <Text style={styles.hear}>Here</Text></Text>
-          </ImageBackground>
-        </TouchableWithoutFeedback>
-      </KeyboardAwareScrollView>
+                <Text style={styles.agree}>By coutinuting, you agree to our <Text style={{ color: VIOLET }}>Terms of Use</Text></Text>
+                <GradientButton
+                  title={'Login'}
+                  style={styles.loginButton}
+                  onPress={() => {
+                    const { componentId } = this.props;
+                    navigateToScreen(componentId, 'LoginNext1')
+                  }}
+                />
+              </View>
+              <Text style={styles.getPass}>Forgot your password, get it back <Text style={styles.hear}>Here</Text></Text>
+            </ImageBackground>
+          </TouchableWithoutFeedback>
+        </KeyboardAwareScrollView>
+      </SafeAreaView>
+
     );
   }
 }

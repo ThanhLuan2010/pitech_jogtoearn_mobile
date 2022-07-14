@@ -1,20 +1,47 @@
 import {StyleSheet} from 'react-native';
-import {COLOR_PRIMARY, WHITE} from '../../themes/colors';
+import {BORDER, WHITE,VIOLET} from '../../themes/colors';
 import * as sizes from '../../constants/sizes';
+import Fonts from '../../themes/Fonts';
 
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: WHITE,
+    paddingHorizontal:16,
+    height: sizes.height,
   },
-  topView: {
-    height: sizes.height / 2,
-    paddingHorizontal: sizes.width / 5,
-    backgroundColor: COLOR_PRIMARY,
+  header: {
+    marginTop: 32,
   },
-  imgAvatar: {
-    width: sizes.width / 4,
-    height: sizes.width / 4,
-    borderRadius: sizes.width / 8,
+  mode:{
+    color:VIOLET,
+    fontFamily:Fonts.playBold,
+    textAlign:'center',
+    fontSize:24, 
+    marginTop:24
+  },
+  rowbetween:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    alignItems:'center'
+  },
+  searchInput:{
+    width: sizes.width/2,
+    borderColor:'#4141E7'
+  },
+  category:{
+    color:WHITE,
+    fontSize:18,
+    fontFamily:Fonts.Aldrich
+  },
+  tabButton: {
+    paddingVertical: 6,
+    paddingHorizontal: 14,
+    borderRadius: 20,
+    borderColor: BORDER,
+  },
+  tabbuttonText: {
+    color: WHITE,
+    fontSize: 14,
+    fontFamily: Fonts.play,
   },
 });

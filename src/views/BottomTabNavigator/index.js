@@ -1,4 +1,4 @@
-import { Text, View, ImageBackground, Image, TouchableOpacity } from 'react-native'
+import { Text, View, ImageBackground, Image, TouchableOpacity, SafeAreaView } from 'react-native'
 import React, { Component } from 'react'
 import images from '../../themes/Images'
 import styles from './style'
@@ -19,23 +19,24 @@ export class BottomTabNavigator extends Component {
   renderBodyView = () => {
     switch (this.state.tabIndex) {
       case 1:
-        return <HomeView />
+        return <HomeView componentId={this.props.componentId} />
       case 2:
-        return <Jog2eView />
+        return <Jog2eView componentId={this.props.componentId}/>
       case 3:
-        return <Inventory />
+        return <Inventory componentId={this.props.componentId}/>
       case 4:
-        return <ClubView />
-      case 4:
-        return <NewsView />
+        return <ClubView componentId={this.props.componentId}/>
+      case 5:
+        return <NewsView componentId={this.props.componentId}/>
       default:
         break;
     }
   }
   render() {
     const { tabIndex } = this.state
+    console.log('==========props=========',this.props)
     return (
-      <View style={{ flex: 1 }}>
+      <SafeAreaView style={{ flex: 1 }}>
         <View style={{ flex: 1 }}>
           {this.renderBodyView()}
         </View>
@@ -96,7 +97,7 @@ export class BottomTabNavigator extends Component {
           </TouchableOpacity>
 
         </ImageBackground>
-      </View>
+      </SafeAreaView>
     )
   }
 }

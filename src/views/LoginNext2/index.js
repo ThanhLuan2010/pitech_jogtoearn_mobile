@@ -47,7 +47,7 @@ class LoginNext2 extends React.Component {
     loading.showLoading();
     setTimeout(() => {
       loading.hideLoading();
-    }, 5000);
+    }, 500);
   }
 
   navigateToRegister = () => {

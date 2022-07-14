@@ -13,6 +13,9 @@ export default {
     Poppins:'Poppins',
     PoppinsBold:'PoppinsBold',
     captionBold:'captionBold',
-    caption:'caption'
+    caption:'caption',
+    TitilliumWeb:'TitilliumWeb-Black',
+    TitilliumWeb_Bold:'TitilliumWeb-Bold',
+    TitilliumWeb_Italic:'TitilliumWeb-Italic',
   }
   
